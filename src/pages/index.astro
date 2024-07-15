@@ -1,0 +1,20 @@
+---
+import audioFile from "../assets/keyboard.mp3";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>My Audio Blog</title>
+  </head>
+  <body>
+    <h1>Welcome to My Audio Blog</h1>
+    <audio controls>
+      <source src={audioFile} type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </body>
+</html>
