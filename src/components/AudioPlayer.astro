@@ -1,0 +1,11 @@
+---
+const { src } = Astro.props;
+---
+
+<div>
+  <p>Audio Player Here</p>
+  <audio controls>
+    <source src={src} type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+</div>
